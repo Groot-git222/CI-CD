@@ -13,17 +13,19 @@
             font-size: 50px;
         }
         h2 {
-            font-size: 35px;
+            font-size: 30px;
+            margin: 10px 0;
         }
         .blue { color: #007BFF; }
         .green { color: #28a745; }
         .purple { color: #6f42c1; }
         .orange { color: #fd7e14; }
+        .red { color: #dc3545; }
         .card {
             background: #ffffff;
             padding: 30px;
             margin: 50px auto;
-            width: 60%;
+            width: 65%;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
@@ -36,15 +38,23 @@
     <h1>🚀 Welcome to My Web Application</h1>
 
     <h2 class="blue">
-        Successfully Deployed using Jenkins CI/CD Pipeline
+        CI/CD Pipeline Executed using Jenkins (Master-Slave Architecture)
     </h2>
 
     <h2 class="purple">
         Code Quality Verified using SonarQube ✔️
     </h2>
 
+    <h2 class="red">
+        Artifacts Managed and Stored in Nexus Repository 📦
+    </h2>
+
     <h2 class="green">
-        Version 1.3 Deployment
+        Build & Deployment Executed on Jenkins Slave Node ⚙️
+    </h2>
+
+    <h2>
+        Version 1.4 Deployment
     </h2>
 
     <h2>
@@ -52,7 +62,7 @@
     </h2>
 
     <h2 class="orange">
-        DevOps Project Completed Successfully 🎯
+        Complete DevOps Pipeline Implemented Successfully 🎯
     </h2>
 </div>
 
